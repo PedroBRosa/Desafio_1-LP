@@ -15,7 +15,7 @@ public class Main {
         if (lado1 == 0 || lado2 == 0 || lado3 == 0) {
             System.out.println("O comprimento não pode ser = 0");
         }else if((lado1+lado2)<=lado3){
-            System.out.println("A soma de 2 lados não pode ser menor que a do comparado");
+            System.out.println("A soma de 2 lados não pode ser menor ou igual que a do comparado");
         }else {
             if(lado1==lado2&&lado1==lado3){
                 System.out.println("É um triangulo equilatero");
